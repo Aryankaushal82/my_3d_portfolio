@@ -1,0 +1,4 @@
+
+// This is a placeholder - in a real project, you would upload an actual GLB file
+// Since we can't upload binary files directly through this interface, we've implemented
+// a fallback 3D scene directly in code.

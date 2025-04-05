@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				cyber: {
+					dark: '#1A1F2C',
+					black: '#0F1218',
+					purple: '#8B5CF6',
+					'bright-purple': '#9B87F5',
+					teal: '#0FA0CE',
+					blue: '#1EAEDB',
+					pink: '#D946EF'
 				}
+			},
+			fontFamily: {
+				orbitron: ['Orbitron', 'sans-serif'],
+				rajdhani: ['Rajdhani', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -70,26 +84,48 @@ export default {
 			},
 			keyframes: {
 				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
+				},
+				'pulse-glow': {
+					'0%, 100%': { 
+						boxShadow: '0 0 15px 5px rgba(139, 92, 246, 0.5)',
+						opacity: '1'
 					},
-					to: {
-						height: '0'
-					}
-				}
+					'50%': { 
+						boxShadow: '0 0 25px 10px rgba(139, 92, 246, 0.7)',
+						opacity: '0.8'
+					},
+				},
+				'text-glow': {
+					'0%, 100%': { 
+						textShadow: '0 0 10px rgba(139, 92, 246, 0.5), 0 0 20px rgba(139, 92, 246, 0.3)'
+					},
+					'50%': { 
+						textShadow: '0 0 15px rgba(139, 92, 246, 0.8), 0 0 30px rgba(139, 92, 246, 0.5)'
+					},
+				},
+				'rotate-slow': {
+					'0%': { transform: 'rotate(0deg)' },
+					'100%': { transform: 'rotate(360deg)' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 5s ease-in-out infinite',
+				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
+				'text-glow': 'text-glow 3s ease-in-out infinite',
+				'rotate-slow': 'rotate-slow 20s linear infinite',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
