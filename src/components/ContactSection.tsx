@@ -226,7 +226,7 @@ export default function ContactSection() {
                 
                 {commandLine && (
                   <div className="mt-4">
-                    <span className="text-cyber-teal mr-2">></span>
+                    <span className="text-cyber-teal mr-2">&gt;</span>
                     <span className="text-green-400">{commandLine}</span>
                   </div>
                 )}
