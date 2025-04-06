@@ -102,35 +102,32 @@ export default function ContactSection() {
             <div className="space-y-6">
               <div>
                 <h4 className="text-cyber-purple font-orbitron text-lg mb-2">Location</h4>
-                <p className="text-white/80">New York, NY</p>
+                <p className="text-white/80">Chandigarh, Punjab</p>
               </div>
               
               <div>
                 <h4 className="text-cyber-purple font-orbitron text-lg mb-2">Email</h4>
-                <a href="mailto:contact@example.com" className="text-white/80 hover:text-cyber-teal transition-colors">contact@example.com</a>
+                <a href="mailto:kaushalaryan1234@gmail.com" className="text-white/80 hover:text-cyber-teal transition-colors">kaushalaryan1234@gmail.com</a>
               </div>
               
               <div>
                 <h4 className="text-cyber-purple font-orbitron text-lg mb-2">Social Networks</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="py-2 px-4 bg-cyber-dark border border-cyber-purple/30 hover:border-cyber-purple/70 rounded transition-colors">
+                  <a href="https://github.com/Aryankaushal82" className="py-2 px-4 bg-cyber-dark border border-cyber-purple/30 hover:border-cyber-purple/70 rounded transition-colors">
                     GitHub
                   </a>
-                  <a href="#" className="py-2 px-4 bg-cyber-dark border border-cyber-teal/30 hover:border-cyber-teal/70 rounded transition-colors">
+                  <a href="https://www.linkedin.com/in/aryan-kaushal-91a2b0255/" className="py-2 px-4 bg-cyber-dark border border-cyber-teal/30 hover:border-cyber-teal/70 rounded transition-colors">
                     LinkedIn
-                  </a>
-                  <a href="#" className="py-2 px-4 bg-cyber-dark border border-cyber-blue/30 hover:border-cyber-blue/70 rounded transition-colors">
-                    Twitter
                   </a>
                 </div>
               </div>
               
-              <div>
+              {/* <div>
                 <h4 className="text-cyber-purple font-orbitron text-lg mb-2">Resume</h4>
                 <a href="#" className="inline-block py-2 px-6 bg-cyber-purple/20 border border-cyber-purple/50 hover:bg-cyber-purple/30 rounded transition-colors">
                   Download CV
                 </a>
-              </div>
+              </div> */}
             </div>
           </motion.div>
           

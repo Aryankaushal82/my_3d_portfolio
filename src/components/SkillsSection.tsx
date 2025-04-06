@@ -103,9 +103,9 @@ export default function SkillsSection() {
               </div>
               
               {/* Orbits */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] rounded-full border border-cyber-purple/20 animate-rotate-slow"></div>
+              {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] rounded-full border border-cyber-purple/20 animate-rotate-slow"></div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[350px] h-[350px] rounded-full border border-cyber-teal/20 animate-rotate-slow" style={{ animationDirection: 'reverse' }}></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] rounded-full border border-cyber-blue/20 animate-rotate-slow"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] rounded-full border border-cyber-blue/20 animate-rotate-slow"></div> */}
               
               {/* Skill orbs */}
               {skills.slice(0, 10).map((skill, index) => {
@@ -220,3 +220,5 @@ export default function SkillsSection() {
     </section>
   );
 }
+
+

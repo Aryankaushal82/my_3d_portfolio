@@ -10,31 +10,41 @@ const projects = [
   {
     id: 1,
     title: "Profitex",
-    description: "Financial analytics platform with real-time data visualization and prediction algorithms.",
-    image: "/images/project1.jpg", // This would be a fallback image
-    tags: ["React", "Node.js", "MongoDB", "D3.js"],
-    link: "#",
-    github: "#"
+    description: "Comprehensive billing solution with inventory management, dynamic invoicing, user roles, and multi-branch support.",
+    image: "/images/projec1.png",
+    tags: ["MERN", "Node.js", "MongoDB", "Express", "React"],
+    link: "https://profitex-iota.vercel.app/",
+    github: "https://github.com/aryan138/ChaltaCode"
   },
   {
     id: 2,
     title: "Game Island",
-    description: "Immersive 3D island explorer game with physics-based interactions and dynamic weather system.",
-    image: "/images/project2.jpg", // This would be a fallback image
-    tags: ["C++", "Unity", "WebGL", "Three.js"],
+    description: " Engineered an interactive mental exercise game, Game Island, using Python, Tkinter, and Pygame, aimed at enhancing cognitive skills through engaging gameplay",
+    image: "/images/project2.png",
+    tags: ["python","customTkinter"],
     link: "#",
-    github: "#"
+    github: "https://github.com/Aryankaushal82/Game-Island"
   },
   {
     id: 3,
-    title: "AI Assistant",
-    description: "Natural language processing tool that helps developers write and debug code through conversational AI.",
-    image: "/images/project3.jpg", // This would be a fallback image
-    tags: ["Python", "TensorFlow", "React", "FastAPI"],
-    link: "#",
-    github: "#"
+    title: "Product Configurator",
+    description: "3D model configurator for a customizable product, allowing users to visualize and personalize their choices in real-time.",
+    image: "/images/project3.png",
+    tags: ["React", "React-Three-Fiber", "GSAP", "Model-viewer"],
+    link: "https://magnificent-naiad-bb37c7.netlify.app/",
+    github: "https://github.com/Aryankaushal82/configurator-v2"
+  },
+  {
+    id: 4,
+    title: "Lucky Spinner",
+    description: "spinning game with a customizable wheel, allowing users to add their own options and spin to win.",
+    image: "/images/project4.png",
+    tags: ["React", "MongoDB", "Express", "Node.js"],
+    link: "https://cute-lokum-097684.netlify.app/",
+    github: "https://github.com/Aryankaushal82/luckySpinner.js"
   }
 ];
+
 
 export default function ProjectsSection() {
   const sectionRef = useRef<HTMLDivElement>(null);

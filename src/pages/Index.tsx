@@ -64,10 +64,10 @@ const Index = () => {
       <footer className="py-6 border-t border-cyber-purple/20 bg-cyber-black">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="text-white/60 text-sm">
-            &copy; {new Date().getFullYear()} DEVELOPER_NAME. All rights reserved.
+            &copy; {new Date().getFullYear()} ARYAN KAUSHAL. All rights reserved.
           </p>
           <p className="text-white/40 text-xs mt-1">
-            Built with React, Three.js, GSAP and ❤️
+            Built with React, Three.js, GSAP and Tailwind CSS.
           </p>
         </div>
       </footer>

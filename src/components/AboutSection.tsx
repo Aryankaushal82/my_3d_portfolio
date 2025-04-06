@@ -3,6 +3,7 @@ import { useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import GlbViewer from '../components/3d/GlbViewer'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,16 +66,15 @@ export default function AboutSection() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
-            className="cyber-panel p-6"
+            className="cyber-panel p-6 max-h-[100vh]"
           >
-            <h3 className="text-2xl font-orbitron mb-4 text-cyber-teal">THE_DEVELOPER</h3>
+            <h3 className="text-2xl font-orbitron mb-4 text-cyber-teal">SOFTWARE_DEVELOPER</h3>
             <p className="text-lg mb-4">
-              Full-stack developer with expertise in MERN stack, Java, C++ and TypeScript. 
+              Full-stack developer with expertise in MERN stack, Java, C++, R3F and JavaScript. 
               Passionate about creating efficient, scalable solutions and immersive user experiences.
             </p>
             <p className="text-lg mb-4">
-              Currently working at Smartern Tech, focused on developing innovative web applications 
-              and microservices architecture.
+              Currently working at Ikarus 3D, focused on developing 3D model Configurators.
             </p>
             <div className="mt-6">
               <h4 className="text-xl font-orbitron mb-3 text-cyber-purple">CORE_SKILLS</h4>
@@ -85,6 +85,7 @@ export default function AboutSection() {
                   </span>
                 ))}
               </div>
+              <GlbViewer/>
             </div>
           </motion.div>
           
@@ -102,7 +103,7 @@ export default function AboutSection() {
                 <code className="language-javascript">
 {`class Developer {
   constructor() {
-    this.name = "DEVELOPER_NAME";
+    this.name = "ARYAN KAUSHAL";
     this.title = "Full-Stack Developer";
     this.skills = [
       "JavaScript", "TypeScript", 

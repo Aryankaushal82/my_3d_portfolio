@@ -125,6 +125,8 @@ export default {
 				'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
 				'text-glow': 'text-glow 3s ease-in-out infinite',
 				'rotate-slow': 'rotate-slow 20s linear infinite',
+				'spin-slow': 'spin 20s linear infinite',
+        		'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
 			},
 		}
 	},

@@ -1,7 +1,7 @@
 
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { WorkspaceScene } from './WorkspaceScene';
+import  WorkspaceScene  from './WorkspaceScene';
 import { OrbitControls, Stats } from '@react-three/drei';
 import { motion } from 'framer-motion';
 
