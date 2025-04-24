@@ -145,8 +145,8 @@ export default function AboutSection() {
     {
       "name": "Game Island",
       "type": "Game Development",
-      "tech": ["C++", "Unity", "WebGL"],
-      "description": "Immersive 3D island explorer"
+      "tech": ["Python", "Custom tkinter", "PyGame"],
+      "description": "Immersive games experience"
     }
   ]
 }`}
