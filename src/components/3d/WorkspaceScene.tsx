@@ -152,9 +152,9 @@ export function WorkspaceModel({ name = "Aryan Kaushal", title = "FULL-STACK DEV
                   <div className="text-white mb-2">developer</div>
                   <div>$ ls -la projects/</div>
                   <div className="text-white mb-2">
-                    <div>drwxr-xr-x 5 dev staff 160 Apr 6 25 project-alpha</div>
-                    <div>drwxr-xr-x 8 dev staff 256 Apr 5 25 project-beta</div>
-                    <div>drwxr-xr-x 6 dev staff 192 Apr 4 25 project-gamma</div>
+                    <div>drwxr-xr-x 5  21 years old</div>
+                    <div>drwxr-xr-x 8 Jalandhar, Punjab</div>
+                    <div>drwxr-xr-x 6 +917888593684</div>
                   </div>
                   <div>$ cat skills.txt</div>
                   <div className="text-emerald-400 mb-2">
